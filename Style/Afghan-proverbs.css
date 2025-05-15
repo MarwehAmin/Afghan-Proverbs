@@ -211,6 +211,14 @@ nav a:hover {
     border-radius: 8px;
     text-align: center;
     cursor: pointer;
+    box-shadow: 0 0 5px rgb(64, 29, 240),
+     0 0 25px  rgb(64, 29, 240);
+}
+
+button:hover{
+    box-shadow: 0 0 5px rgb(64, 29, 240),
+    0 0 25px  rgb(64, 29, 240), 0 0 50px rgb(64, 29, 240),
+    0 0 100px rgb(64, 29, 240), 0 0 200px rgb(64, 29, 240);
 }
 
 .proverb-of-the-day button:hover {
